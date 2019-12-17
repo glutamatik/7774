@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #F5F5F5;
+    background-image: url(https://novay-era.com/wa-data/public/shop/products/29/69/16929/images/38499/38499.970x0.png);
+}
+/*Стили шапка*/
+#block-body {
+	width: 1035px;
+	margin: 5px auto;
+	height: auto;
+}
+
+header {
+	width: 1035px;
+	height: 80px;
+	background-color: #D3D3D3;
+}
+
+.logo {
+	width: 200px;
+	float: left;
+	height: 80px;
+}
+
+.logo a{
+	display: block;
+	margin-left: 15px;
+	margin-top: 10px;
+	font-size: 28px;
+	color: #b2aeb2;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.use {
+	color:#696969;
+}
+
+.web {
+	color:#696969;
+}
+
+.top-menu {
+	width: 685px;
+	height: 80px;
+	float: left;
+}
+
+.top-menu ul li {
+	list-style:none;
+	float:left;
+	text-align:center;
+}
+
+.top-menu ul li a{
+	display: block;
+	width: 171px;
+	text-decoration:none;
+	font-size: 17px;
+	color:#696969;
+	height: 55px;
+	padding-top: 25px;
+	cursor: pointer;
+}
+
+/*Стили footer*/
+
+footer {
+	width: 98.1%;
+	float: left;
+	padding: 1%;
+	background-color:#D3D3D3;
+	border-top: 2px solid silver;
+	margin-top: 0px;  /*Футер вниз*/
+}
+
+footer #social {
+	float: left;
+	width; 50%;
+}
+
+footer #rights {
+	float: right;
+	width: 50%;
+	text-align: right;
+	font-size:1.1em;
+}
+
+footer #social {
+	float: left;
+	width: 50%;
+}
+
+footer #social img {
+	width: 30px;
+	height:30px;
+	float: left;
+	margin-right:5px;
+}
+	
+
+
+
+
+.sidebar {
+  width: 18%;
+  background: #d0d6d3;
+  height: 100%;/*сайдбар высота*/
+  float: right;
+  border-top: 2px solid silver;
+
+}
+
+
+
+
+
+.content {
+padding: 10.3px;
+  width: 80%;
+  background: #c0c4c2;
+  height:100%;/*контент высота*/
+  float: left;
+  border-top: 2px solid silver;
+
+
+ }
+
+
+
+
+/*ссылки*/
+a { 
+    text-decoration: none; 
+    color: green;
+    ont-family: 'Times New Roman', Times, serif; /* Гарнитура текста */ 
+    font-size: 250%; /* Размер шрифта в процентах */
+   } 
+/*абзац*/
+
+ p {
+    text-indent: 20px; /* Отступ первой строки в пикселах */
+   }
+
+ /*цвет заголовков*/
+ .zagolovok {
+     color: #7C7E86; /* Красный цвет выделения */
+   }
+
+
+  li {
+    list-style-type: none; /* Убираем маркеры */
+   }
